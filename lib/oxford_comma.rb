@@ -7,7 +7,10 @@ def oxford_comma(array)
     index = 0
     list = ""
     until index == array.size - 1
-      array.join(", ")
+      list << "#{array[index]}, "
+      index += 1
     end
+    list << "and #{array[index]}"
+    list
   end
 end
