@@ -11,6 +11,5 @@ def oxford_comma(array)
       index += 1
     end
     list << "and #{array[index]}"
-    list
   end
 end
